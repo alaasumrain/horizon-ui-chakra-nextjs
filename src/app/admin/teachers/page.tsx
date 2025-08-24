@@ -36,7 +36,6 @@ import {
 } from '@chakra-ui/react';
 
 // Custom components
-import Banner from 'views/admin/marketplace/components/Banner';
 import TableTopCreators from 'views/admin/marketplace/components/TableTopCreators';
 import HistoryItem from 'views/admin/marketplace/components/HistoryItem';
 import NFT from 'components/card/NFT';
@@ -54,6 +53,7 @@ import Avatar1 from 'img/avatars/avatar1.png';
 import Avatar2 from 'img/avatars/avatar2.png';
 import Avatar3 from 'img/avatars/avatar3.png';
 import Avatar4 from 'img/avatars/avatar4.png';
+import AdminLayout from 'layouts/admin';
 
 export default function NftMarketplace() {
   // Chakra Color Mode
@@ -72,7 +72,7 @@ export default function NftMarketplace() {
           flexDirection="column"
           gridArea={{ xl: '1 / 1 / 2 / 3', '2xl': '1 / 1 / 2 / 2' }}
         >
-          <Banner />
+          {/* <Banner /> */}
           <Flex direction="column">
             <Flex
               mt="45px"

@@ -5,6 +5,8 @@ import {
   MdHome,
   MdLock,
   MdOutlineShoppingCart,
+  MdSchool,
+  MdChat,
 } from 'react-icons/md';
 
 // Admin Imports
@@ -38,6 +40,18 @@ const routes: IRoute[] = [
       />
     ),
     secondary: true,
+  },
+  {
+    name: 'Teachers',
+    layout: '/admin',
+    path: '/teachers',
+    icon: <Icon as={MdSchool} width="20px" height="20px" color="inherit" />,
+  },
+  {
+    name: 'Chat',
+    layout: '/admin',
+    path: '/chat',
+    icon: <Icon as={MdChat} width="20px" height="20px" color="inherit" />,
   },
   {
     name: 'Data Tables',
